@@ -1,0 +1,21 @@
+{
+  "name": "pnpm-workspace-template",
+  "version": "1.0.0",
+  "description": "This is a template for pnpm workspace. It is recommended to use this template when you create a new pnpm workspace.",
+  "scripts": {
+    "format:biome": "biome format **.{ts,tsx} --write",
+    "lint:biome": "biome lint **.{ts,tsx}"
+  },
+  "keywords": ["template", "workspace", "pnpm", "monorepo", "pnpm-workspace"],
+  "author": "kyli",
+  "license": "ISC",
+  "devDependencies": {
+    "@biomejs/biome": "1.8.3",
+    "@changesets/cli": "^2.27.1"
+  },
+  "engines": {
+    "node": ">=20",
+    "pnpm": "^9.7.0"
+  },
+  "packageManager": "pnpm@9.7.0"
+}

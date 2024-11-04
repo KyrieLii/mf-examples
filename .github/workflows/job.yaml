@@ -1,0 +1,16 @@
+name: CI Template
+on:
+  workflow_dispatch:
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.ACTIONS_TOKEN }}
+      - name: install
+        run: |
+          node -v
+          npm i -g pnpm@9
+          pnpm i
