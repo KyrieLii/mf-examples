@@ -6,7 +6,13 @@
     "format:biome": "biome format **.{ts,tsx} --write",
     "lint:biome": "biome lint **.{ts,tsx}"
   },
-  "keywords": ["template", "workspace", "pnpm", "monorepo", "pnpm-workspace"],
+  "keywords": [
+    "template",
+    "workspace",
+    "pnpm",
+    "monorepo",
+    "pnpm-workspace"
+  ],
   "author": "kyli",
   "license": "ISC",
   "devDependencies": {
